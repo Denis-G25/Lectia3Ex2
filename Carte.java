@@ -10,8 +10,12 @@ public class Carte {
 public boolean esteIdentica(Carte altaCarte) {
 	return this.numarPagini.equals(altaCarte.numarPagini);
 	
-	}
+}
+
+public String toString() {
+	return "Carte cu" + numarPagini + " pagini";
+	
 }
 
 
-
+}
